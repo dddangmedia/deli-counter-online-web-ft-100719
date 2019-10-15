@@ -31,4 +31,10 @@ def take_a_number(line, name)
   end
 end
 
-def now_serving()
+def now_serving(arr)
+  case arr.length
+  when 0 
+    puts "The line is empty."
+    
+    
+end

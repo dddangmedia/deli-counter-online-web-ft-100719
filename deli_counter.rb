@@ -35,6 +35,9 @@ def now_serving(arr)
   case arr.length
   when 0 
     puts "There is nobody waiting to be served!"
+  else
+    arr.shift!
+    
   end
     
 end

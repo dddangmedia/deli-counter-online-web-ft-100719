@@ -36,7 +36,7 @@ def now_serving(arr)
   when 0 
     puts "There is nobody waiting to be served!"
   else
-    arr.shift!
+    arr.shift
     
   end
     

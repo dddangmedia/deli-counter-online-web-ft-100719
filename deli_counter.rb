@@ -31,3 +31,4 @@ def take_a_number(line, name)
   end
 end
 
+def now_serving()
